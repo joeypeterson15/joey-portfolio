@@ -1,7 +1,7 @@
 export type Project = {
   slug: string
   title: string
-  brandLine: string
+  // brandLine: string
   summary: string
   role: string
   stack: string[]
@@ -15,7 +15,7 @@ export const projects: Project[] = [
   {
     slug: 'task-distributor',
     title: 'Task Distributor',
-    brandLine: 'Joey Peterson',
+    // brandLine: 'Joey Peterson',
     summary:
       'A scheduler for parallel numerical work: region-aware task queues, WebSocket workers, and live heat-map visualization of distributed compute.',
     role: 'Systems · Distributed compute',
@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     slug: 'stream-processor',
     title: 'Stream Processor Engine',
-    brandLine: 'Joey Peterson',
+    // brandLine: 'Joey Peterson',
     summary:
       'Event-driven microservices that fan out click and order events to Dockerized handlers, write aggregated state to a shared store, and stream updates to a live dashboard.',
     role: 'Backend · Streaming systems',
@@ -49,7 +49,7 @@ export const projects: Project[] = [
   {
     slug: 'dual-osc-synth',
     title: 'Dual Osc Synth',
-    brandLine: 'Joey Peterson',
+    // brandLine: 'Joey Peterson',
     summary:
       'A two-oscillator Audio Unit / VST3 plugin for Logic and other DAWs — per-oscillator filters and ADSR, LFO modulation, and 16-voice polyphony built with JUCE.',
     role: 'Audio · Real-time DSP',
@@ -65,7 +65,7 @@ export const projects: Project[] = [
   {
     slug: 'chord-detector',
     title: 'Guitar Chord Detector',
-    brandLine: 'Joey Peterson',
+    // brandLine: 'Joey Peterson',
     summary:
       'Computer vision for the fretboard: custom annotated chord photos, SSD / Faster R-CNN training, and detection of finger positions, chord shapes, and fretboard regions.',
     role: 'ML · Computer vision',

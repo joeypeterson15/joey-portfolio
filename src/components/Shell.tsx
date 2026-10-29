@@ -5,9 +5,12 @@ export function Shell({ children }: { children: React.ReactNode }) {
   return (
     <div className="shell">
       <header className="top">
-        <Link to="/" className="mark">
+        {/* <Link to="/" className="mark">
           Joey Peterson
-        </Link>
+        </Link> */}
+        <div className="mark">
+          Joey Peterson
+        </div>
         <nav className="nav" aria-label="Projects">
           {projects.map((p, i) => (
             <NavLink

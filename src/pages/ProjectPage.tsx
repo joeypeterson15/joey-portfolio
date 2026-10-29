@@ -21,7 +21,7 @@ export function ProjectPage() {
         <div className="project__stage">
           <ProjectVisual project={project} />
           <div className="project__copy">
-            <p className="project__brand">{project.brandLine}</p>
+            {/* <p className="project__brand">{project.brandLine}</p> */}
             <h1 className="project__title">{project.title}</h1>
             <p className="project__summary">{project.summary}</p>
             <div className="project__meta">

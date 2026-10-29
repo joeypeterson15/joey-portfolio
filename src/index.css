@@ -64,8 +64,8 @@ a {
 
 .mark {
   font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 1.05rem;
+  /* font-weight: 800; */
+  font-size: 1.35rem;
   letter-spacing: -0.03em;
   white-space: nowrap;
 }
