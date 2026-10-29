@@ -1,4 +1,4 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { projects } from '../data/projects'
 
 export function Shell({ children }: { children: React.ReactNode }) {
