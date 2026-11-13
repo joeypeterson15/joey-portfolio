@@ -67,13 +67,13 @@ export const projects: Project[] = [
     title: 'Guitar Chord Detector',
     // brandLine: 'Joey Peterson',
     summary:
-      'Computer vision for the fretboard: custom annotated chord photos, SSD / Faster R-CNN training, and detection of finger positions, chord shapes, and fretboard regions.',
+      'SSD300 on custom guitar photos. Each fretting finger is a note-letter box, and the fretboard is its own class, drawn with matplotlib.',
     role: 'ML · Computer vision',
-    stack: ['PyTorch', 'SSD', 'Faster R-CNN', 'Albumentations'],
+    stack: ['PyTorch', 'SSD300', 'Albumentations', 'Matplotlib'],
     highlights: [
-      'Custom dataset with finger, chord-shape, and fretboard boxes',
-      'Multi-class chord recognition (Amin, Cmaj, Gmaj, Dmaj, Emaj, and more)',
-      'Training and inference pipelines for SSD300-style detectors',
+      '71 annotated photos: three finger-note boxes and a fretboard box per image',
+      'VGG-16 SSD300 with 8732 default boxes and MultiBox loss',
+      'Checkpoint inference that draws note and fretboard boxes on the photo',
     ],
     github: 'https://github.com/joeypeterson15/ssd_chord_detector',
     accent: '#6b2d5c',
